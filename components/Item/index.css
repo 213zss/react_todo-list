@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo:hover{
+    background-color: lightgray;
+}
+.btn{
+    display: none;
+}
+.todo:hover .btn{
+    display: block;
+}
+
